@@ -11,10 +11,7 @@ import NaturalLanguage
 
 class SimilarWordsViewModel: ObservableObject {
   @Published var similarWords: [(String, NLDistance)] = [("", 0.0)]
-  var targetWord: String = "" {
-    willSet {
-      objectWillChange.send()
-    }
+  @Published var targetWord: String = "" {
     didSet {
       findSimilarWords(targetWord: targetWord)
     }
