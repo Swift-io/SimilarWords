@@ -15,6 +15,8 @@
 		5473A2B324F325E8009C6E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5473A2B124F325E8009C6E3D /* LaunchScreen.storyboard */; };
 		5473A2BE24F325E8009C6E3D /* SimilarWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473A2BD24F325E8009C6E3D /* SimilarWordsTests.swift */; };
 		5473A2C924F325E8009C6E3D /* SimilarWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473A2C824F325E8009C6E3D /* SimilarWordsUITests.swift */; };
+		5473A2D724F3264A009C6E3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473A2D624F3264A009C6E3D /* HomeView.swift */; };
+		5473A2D924F32690009C6E3D /* SimilarWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473A2D824F32690009C6E3D /* SimilarWordsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5473A2C424F325E8009C6E3D /* SimilarWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimilarWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5473A2C824F325E8009C6E3D /* SimilarWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarWordsUITests.swift; sourceTree = "<group>"; };
 		5473A2CA24F325E8009C6E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5473A2D624F3264A009C6E3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5473A2D824F32690009C6E3D /* SimilarWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarWordsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				5473A2A624F325E6009C6E3D /* AppDelegate.swift */,
 				5473A2A824F325E6009C6E3D /* SceneDelegate.swift */,
 				5473A2AA24F325E6009C6E3D /* ContentView.swift */,
+				5473A2D624F3264A009C6E3D /* HomeView.swift */,
+				5473A2D824F32690009C6E3D /* SimilarWordsViewModel.swift */,
 				5473A2AC24F325E8009C6E3D /* Assets.xcassets */,
 				5473A2B124F325E8009C6E3D /* LaunchScreen.storyboard */,
 				5473A2B424F325E8009C6E3D /* Info.plist */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5473A2A724F325E6009C6E3D /* AppDelegate.swift in Sources */,
+				5473A2D924F32690009C6E3D /* SimilarWordsViewModel.swift in Sources */,
+				5473A2D724F3264A009C6E3D /* HomeView.swift in Sources */,
 				5473A2A924F325E6009C6E3D /* SceneDelegate.swift in Sources */,
 				5473A2AB24F325E6009C6E3D /* ContentView.swift in Sources */,
 			);
